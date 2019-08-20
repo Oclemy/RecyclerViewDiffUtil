@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_margin="3dp"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardElevation="5dp"
+        android:layout_height="120dp"
+        android:foreground="?android:selectableItemBackground">
+    <!-- set foreground to this ^ for animation onClick-->
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Name"
+            android:id="@+id/nameTxt"
+            android:padding="10dp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"/>
+
+</androidx.cardview.widget.CardView>
